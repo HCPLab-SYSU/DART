@@ -160,18 +160,18 @@ python -m torch.distributed.launch --nproc_per_node=2 --master-port=29577 --use_
 
 The core logic of DART is encapsulated in the `dart/` directory, designed as a standard Python package. To integrate DART into a new vision model, you can replace the standard static patch embedding layer with the DART module. See `models_deit.py` for an example of how DART is integrated into the DeiT architecture.
 
-<!-- ## Citation
+ ## Citation
 
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{yourname2024dart,
-  title={{DART}: Differentiable Dynamic Adaptive Region Tokenizer for Vision Transformer and Mamba},
-  author={Your Name and Co-authors},
-  journal={arXiv preprint arXiv:24XX.XXXXX},
-  year={2024}
+@article{yin2025dart,
+  title={DART: Differentiable Dynamic Adaptive Region Tokenizer for Vision Transformer and Mamba},
+  author={Shicheng Yin and Kaixuan Yin and Yang Liu and Weixing Chen and Liang Lin},
+  journal={arXiv preprint arXiv:2506.10390},
+  year={2025}
 }
-``` -->
+``` 
 ## Acknowledgements
 
 This project is built upon the excellent work of several open-source repositories. We gratefully acknowledge the contributions from:
